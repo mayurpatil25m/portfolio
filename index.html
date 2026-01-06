@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mayur Patil | Software Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+<nav>
+  <div class="logo">Mayur Patil</div>
+
+  <!-- Hamburger Icon -->
+  <div class="menu-toggle" id="menuToggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <ul id="navMenu">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+
+    <!-- Profile Image -->
+    <div class="profile-img">
+      <img src="assets/Profile Photo.jpg" alt="Mayur Patil">
+    </div>
+
+    <h1>Hi, I'm <span>Mayur Patil</span></h1>
+    <h2 class="typing"></h2>
+    <p class="role">
+      Full-Stack Engineer | IoT & Robotics Developer
+    </p>
+
+    <p class="summary">
+      Software Engineer with <span>2.5+ years</span> of experience building
+      <span>backend APIs</span>, <span>full-stack web applications</span>, and
+      <span>IoT-enabled systems</span>. Strong expertise in
+      <span>Java</span>, <span>Spring Boot</span>, <span>REST APIs</span>,
+      <span>MySQL</span>, and <span>React</span>, with hands-on experience
+      developing <span>production-ready</span> and
+      <span>scalable solutions</span>. Proven ability to design
+      <span>real-world systems</span>, integrate
+      <span>hardware with software</span>, and work across the complete
+      <span>software development lifecycle</span>. Seeking
+      <span>backend</span> or <span>full-stack</span> engineering roles.
+    </p>
+
+    <div class="buttons">
+      <a href="assets/Mayur_Patil_9272866777.pdf" download>
+        Download Resume
+      </a>
+      <a href="#contact" class="outline">
+        Contact Me
+      </a>
+    </div>
+
+
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects Undertaken</h2>
+
+    <!-- FILTER BUTTONS -->
+    <div class="project-filters">
+      <button class="active" data-filter="all">All</button>
+      <button data-filter="software">Software</button>
+      <button data-filter="robotics">Robotics / IoT</button>
+    </div>
+
+    <!-- PROJECT GRID -->
+    <div class="project-grid">
+
+      <!-- ================= SOFTWARE PROJECTS ================= -->
+
+      <div class="project-card software">
+        <div class="project-media">
+          <img src="assets/Exam Portile.png" alt="Online Examination System">
+        </div>
+        <div class="project-content">
+          <h3>Backend-Driven Online Examination System</h3>
+          <p class="tech">Java • Spring Boot • MySQL • REST APIs</p>
+          <div class="project-links">
+
+            <a href="https://github.com/mayurpatil25m/Online-Exam-Portal" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card software">
+        <div class="project-media">
+          <img src="assets/AWS.png" alt="Terraform EC2 Automation">
+        </div>
+        <div class="project-content">
+          <h3>Automated EC2 Deployment Using Terraform</h3>
+          <p class="tech">AWS • Terraform • SSH</p>
+          <div class="project-links">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card software">
+        <div class="project-media">
+          <img src="assets/raybot.png" alt="Corporate Website">
+        </div>
+        <div class="project-content">
+          <h3>Corporate Website Development</h3>
+          <p class="tech">React.js • Responsive UI</p>
+          <div class="project-links">
+            <a href="https://raybotlabs.com/" target="_blank">Live</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card software">
+        <div class="project-media">
+          <img src="assets/netflix.png" alt="Netflix Clone">
+        </div>
+        <div class="project-content">
+          <h3>Netflix Clone</h3>
+          <p class="tech">React.js • API Integration</p>
+          <div class="project-links">
+            <a href="https://mayurpatil25m.github.io/netflix/" target="_blank">Live</a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card software">
+        <div class="project-media">
+          <img src="assets/Weather.png" alt="Weather App">
+        </div>
+        <div class="project-content">
+          <h3>Weather Report Application</h3>
+          <p class="tech">HTML • CSS • JavaScript • Weather API</p>
+          <div class="project-links">
+            <a href="https://mayurpatil25m.github.io/Weather-Report/" target="_blank">Live</a>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- ================= ROBOTICS / IOT PROJECTS ================= -->
+
+      <div class="project-card robotics">
+        <div class="project-media">
+          <img src="assets/Evm.png" alt="ESP32 Voting System">
+        </div>
+        <div class="project-content">
+          <h3>ESP32-Based Electronic Voting System</h3>
+          <p class="tech">ESP32 • Embedded C • SD Card</p>
+        </div>
+      </div>
+
+      <div class="project-card robotics">
+        <div class="project-media">
+          <video autoplay muted loop>
+            <source src="assets/gff.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="project-content">
+          <h3>Fire Extinguisher Robot</h3>
+          <p class="tech">Flame Sensors • Arduino • Control Algorithms</p>
+        </div>
+      </div>
+
+      <div class="project-card robotics">
+        <div class="project-media">
+          <video autoplay muted loop>
+            <source src="assets/boat.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="project-content">
+          <h3>Autonomous Water Boat</h3>
+          <p class="tech">Embedded Systems • Sensors • Automation</p>
+        </div>
+      </div>
+
+      <div class="project-card robotics">
+        <div class="project-media">
+          <video autoplay muted loop>
+            <source src="assets/folk.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="project-content">
+          <h3>Automatic Path Detection Robot</h3>
+          <p class="tech">IR Sensors • Embedded C • Navigation Logic</p>
+        </div>
+      </div>
+
+      <div class="project-card robotics">
+        <div class="project-media">
+          <video autoplay muted loop>
+            <source src="assets/line.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="project-content">
+          <h3>Autonomous Line Follower Robot</h3>
+          <p class="tech">PID Control • Sensors • Robotics Algorithms</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ================= CONTACT SECTION ================= -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p class="contact-text">
+      Have a project idea or want to work together? <br>
+      Feel free to reach out via email or social media.
+    </p>
+
+
+    <!-- modify this form HTML and place wherever you want your form -->
+    <form class="contact-form" action="https://formspree.io/f/mrebwwwp" method="POST">
+
+      <input type="email" name="email" placeholder="Your Email" required>
+
+      <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+      <!-- your other form fields go here -->
+      <button type="submit">Send</button>
+    </form>
+
+    <!-- SOCIAL MEDIA / FOLLOW -->
+    <div class="contact-socials">
+      <p>Follow Me:</p>
+      <div class="social-links">
+        <a href="https://github.com/mayurpatil25m?tab=repositories" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/mayurpatil25/" target="_blank">LinkedIn</a>
+        <a href="https://www.instagram.com/_patil.mayur.777/" target="_blank">Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <p>Mayur Patil<br>
+      I have worked on multiple projects and have built my own website.</p>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 MayurPatil. All Rights Reserved</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
